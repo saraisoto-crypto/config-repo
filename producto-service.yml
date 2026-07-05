@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: producto-service
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+mensaje:
+  texto: Configuración obtenida desde Config Server para Producto Service
